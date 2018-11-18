@@ -1,0 +1,22 @@
+{
+  "name": "renatoaraujo/graphic-editor",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Renato Rodrigues de Araujo",
+      "email": "renato.r.araujo@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^5.6",
+    "ext-yaml": "*",
+    "ext-ctype": "*",
+    "ext-gd": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "GraphicEditor\\": "src/"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+shape.create_shape:
+  path: /shape
+  method: POST
+  controller: \GraphicEditor\Application\Http\CreateShapeController
+
